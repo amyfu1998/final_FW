@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" class="demo-2 no-js">
+<!-- <html lang="en"> -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/component.css" />
+  <script src="js/hovers.js"></script>
+  <script src="js/snap.svg-min.js"></script>
+
+  <title>Home</title>
+</head>
+<body>
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/home.js"></script>
+  <!-- jquery -->
+
+  <!-- bar -->
+  <div class="sidebar">
+    <div class="menu">
+    <ul class="up">
+      <li><a href="#"><i class="fa fa-cog fa-1x"></i></a></li>
+      <li><a href="#"><i class="fa fa-user fa-2x"></i></a></li>
+      <li><a href="#"><i class="fa fa-share-alt fa-1x"></i></a></li>
+    </ul>
+    <ul class="down">
+      <li><a href="#">H o m e</a></li>
+      <li><a href="fw/cover.html">A b o u t</a></li>
+      <li><a href="#">G e n r e</a></li>
+      <li><a href="#third">M o v i e s</a></li>
+      <li><a href="#grid">F r i e n d s</a></li>
+      <li><a href="#contact">C o n t a c t</a></li>
+    </ul>
+  </div>
+    <button class="sidebtn"type="button" name="button">
+    <span></span>
+      </button>
+  </div>
+  <!-- bar end -->
+
+<div class="all">
+  <!-- first -->
+  <div id="first">
+      <img src="img/background.jpg" alt="background" class="background" id="gone">
+      <div id="space"></div>
+      <div class="login">
+        <button id="hide" type="button" name="button">LOG IN</button>
+            <div class="logbox">
+              <input type="text" placeholder="Username"/><br>
+              <input type="text" placeholder="Password"/><br>
+              <button>Login</button>
+            </div>
+        </div>
+    </div>
+  <!-- first end-->
+
+  <!-- second -->
+  <div id="second">
+    <!-- box -->
+    <div class="box">
+      <div id="gone"></div>
+      <div id="gone"></div>
+      <div id="gone"></div>
+
+        <a href="action.html" class="a">
+          <div id="action">
+            <img src="img/action.jpg" alt="action" class="one">
+            <p>A C T I O N</p>
+          </div>
+        </a>
+
+        <a href="comedy.html" class="c">
+          <div>
+            <img src="img/comedy.jpg" alt="comedy" class="two">
+            <p>C O M E D Y</p>
+          </div>
+        </a>
+
+        <a href="drama.html" class="d">
+          <div>
+            <img src="img/drama.jpg" alt="drama" class="three">
+            <p >D R A M A</p>
+          </div>
+        </a>
+
+        <a href="horror.html" class="h" id="gone">
+          <div>
+            <img src="img/horror.jpg" alt="horror" class="four">
+            <p id="gone">H O R R O R</p>
+          </div>
+        </a>
+
+        <a href="fantasy.html" class="f" id="gone">
+          <div>
+            <img src="img/fantasy.jpg" alt="fantasy" class="five">
+            <p id="gone">F A N T A S Y</p>
+          </div>
+        </a>
+
+        <a href="romance.html" class="r" id="gone">
+          <div>
+            <img src="img/romance.jpg" alt="romance" class="six">
+            <p id="gone">R O M A N C E</p>
+          </div>
+        </a>
+    </div>
+    <!-- box end-->
+  </div>
+  <!-- second end-->
+
+  <!-- third -->
+  <div id="third">
+   <div class="movie">
+     <img src="img/god.jpg" alt="movie">
+   </div>
+    <!-- rates -->
+   <div class="rates">
+     <div id="rates">
+       <div class="title1"><p>imdb</p></div>
+       <div class="ratebar" data-percent="78%">
+         <div class="ratebar-bar" style="background: #97C513;"></div>
+         <div class="rate-bar-percent">78%</div>
+       </div>
+        <div class="title"><p>Tomatoes</p></div>
+       <div class="ratebar" data-percent="89%">
+         <div class="ratebar-bar" style="background: #2E9DC2;"></div>
+         <div class="rate-bar-percent">89%</div>
+       </div>
+        <div class="title"><p>PTT</p></div>
+       <div class="ratebar" data-percent="67%">
+         <div class="ratebar-bar" style="background: #787C77;"></div>
+         <div class="rate-bar-percent">67%</div>
+       </div>
+     </div>
+     <div class="row" id="gone">
+       <h2>R A T E&nbsp;&nbsp;&nbsp;Y O U R&nbsp;&nbsp;&nbsp;O W N</h2>
+
+       <fieldset class="rate">
+         <input id="rate1-star5" type="radio" name="rate1" value="5" />
+         <label for="rate1-star5" title="Excellent">5</label>
+
+         <input id="rate1-star4" type="radio" name="rate1" value="4" />
+         <label for="rate1-star4" title="Good">4</label>
+
+         <input id="rate1-star3" type="radio" name="rate1" value="3" />
+         <label for="rate1-star3" title="Satisfactory">3</label>
+
+         <input id="rate1-star2" type="radio" name="rate1" value="2" />
+         <label for="rate1-star2" title="Bad">2</label>
+
+         <input id="rate1-star1" type="radio" name="rate1" value="1" />
+         <label for="rate1-star1" title="Very bad">1</label>
+       </fieldset>
+     </div>
+   </div> <!-- rates end-->
+ </div>
+  <!-- third end-->
+
+  <!-- four -->
+  <!-- <div id="profile"> -->
+    <section id="grid" class="grid clearfix" >
+  				<a href="chi.html" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+  					<figure>
+  						<img src="img/4.jpg" />
+  						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+  						<figcaption>
+  							<h2>Chi Shan Yu</h2>
+  							<p id="gone">245 Movies Comedy, Horror, Romance</p>
+  							<button>View</button>
+  						</figcaption>
+  					</figure>
+  				</a>
+          <a href="fan.html" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+            <figure>
+              <img src="img/5.png" />
+              <svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+              <figcaption>
+                <h2>Fan</h2>
+                <p id="gone">189 Movies Action, Thriller, Drama</p>
+                <button>View</button>
+              </figcaption>
+            </figure>
+          </a>
+  				<a href="my.html" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+  					<figure>
+  						<img src="img/6.jpg" />
+  						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+  						<figcaption>
+  							<h2>Jane Fu</h2>
+  							<p id="gone">128 Movies Drama, Mystery, Crime</p>
+  							<button>View</button>
+  						</figcaption>
+  					</figure>
+  				</a>
+  				<a href="wen.html" data-path-hover="m 0,0 0,47.7775 c 24.580441,3.12569 55.897012,-8.199417 90,-8.199417 34.10299,0 65.41956,11.325107 90,8.199417 L 180,0 z">
+  					<figure>
+  						<img src="img/7.jpg" />
+  						<svg viewBox="0 0 180 320" preserveAspectRatio="none"><path d="m 0,0 0,171.14385 c 24.580441,15.47138 55.897012,24.75772 90,24.75772 34.10299,0 65.41956,-9.28634 90,-24.75772 L 180,0 0,0 z"/></svg>
+  						<figcaption>
+  							<h2>fat wen</h2>
+  							<p id="gone">152 Movies Comedy, Fantasy, Superhero</p>
+  							<button>View</button>
+  						</figcaption>
+  					</figure>
+  				</a>
+  </section>
+  <!-- </div> -->
+  <!-- four end-->
+  <script>
+    (function() {
+
+      function init() {
+        var speed = 330,
+          easing = mina.backout;
+
+        [].slice.call ( document.querySelectorAll( '#grid > a' ) ).forEach( function( el ) {
+          var s = Snap( el.querySelector( 'svg' ) ), path = s.select( 'path' ),
+            pathConfig = {
+              from : path.attr( 'd' ),
+              to : el.getAttribute( 'data-path-hover' )
+            };
+
+          el.addEventListener( 'mouseenter', function() {
+            path.animate( { 'path' : pathConfig.to }, speed, easing );
+          } );
+
+          el.addEventListener( 'mouseleave', function() {
+            path.animate( { 'path' : pathConfig.from }, speed, easing );
+          } );
+        } );
+      }
+
+      init();
+
+    })();
+  </script>
+
+<!-- footer -->
+<footer id="contact">
+  <ul class="social">
+    <li><a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+    <li><a href="https://www.google.com" id="gone"><i class="fa fa-google-plus"></i></a></li>
+    <li><a href="https://twitter.com" id="gone"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com"><i class="fa fa-instagram"></i></a></li>
+    <li><a href="https://www.youtube.com"><i class="fa fa-youtube"></i></a></li>
+  </ul>
+</footer>
+<footer class="copy">
+  <p>Copyright &copy; 2018 All Rights Reserved.</p>
+</footer>
+<!-- footer end-->
+
+</div>
+
+</body>
+</html>

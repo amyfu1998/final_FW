@@ -1,0 +1,213 @@
+/* Common style */
+.grid {
+	/* margin: 40px auto 120px; */
+	width: 100%;
+	height: 700px;
+	margin-left: 0%;
+	background-color: #647A41;
+}
+
+.grid a {
+	float: left;
+	max-width: 250px;
+	width: 17%;
+	color: #333;
+}
+
+.grid a:first-child {
+	margin-left: 10%;
+	margin-right: 4%;
+}
+.grid a:nth-child(2) {
+	margin-right: 4%;
+}
+.grid a:nth-child(3) {
+	margin-right: 4%;
+}
+.grid figure {
+	position: relative;
+	overflow: hidden;
+	margin-top: 55%;
+	background: #333;
+	border-radius: 50px;
+	height: 400px;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	z-index: 11;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.grid figcaption h2 {
+	margin: 20px 0 20px 0;
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 300;
+	font-size: 100%;
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+}
+
+.grid figcaption p {
+	padding: 0 20px;
+	color: #AAA;
+	font-weight: 300;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	position: absolute;
+}
+
+.grid figcaption h2,
+.grid figcaption p {
+	-webkit-transform: translateY(50px);
+	transform: translateY(50px);
+
+}
+
+.grid figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	height: 10%;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
+
+.grid figcaption,
+.grid figcaption h2,
+.grid figcaption p,
+.grid figure button {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+/* Style for SVG */
+.grid svg {
+	position: absolute;
+	top: -1px;
+	z-index: 10;
+	width: 100%;
+	height: 100%;
+}
+
+.grid svg path {
+	fill: #fff;
+}
+
+/* Hover effects */
+.grid a:hover figure img {
+	opacity: 1;
+}
+
+.grid a:hover figcaption h2,
+.grid a:hover figcaption p {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.grid a:hover figcaption p {
+	opacity: 0;
+}
+
+
+/* .demo-2 body{
+	margin-top: 0;
+	height: 740px;
+  background-color: #647A41;
+} */
+
+.demo-2 .grid figcaption h2 {
+	color: #393232;
+}
+
+.demo-2 .grid figcaption p {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.demo-2 .grid figure button {
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	width: 100%;
+	background: #fff;
+	color: #333;
+	font-weight: 300;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.demo-2 .grid a:hover figure button {
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.demo-2 .grid figcaption h2,
+.demo-2 .grid figcaption p,
+{
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+	timing-function: cubic-bezier(0.250, 0.250, 0.115, 1.445);
+}
+
+.demo-2 .grid a:hover figcaption p {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+	-webkit-transition-duration: 0.1s;
+	transition-duration: 0.1s;
+}
+@media screen and (max-width: 600px){
+	.grid {
+		margin-left: 0%;
+		height: 500px;
+	}
+	.grid figure {
+		margin-top: 5%;
+		height: 115%;
+		border-radius: 10px;
+	}
+	.grid a {
+		margin-top: 0;
+		width: 35%;
+		height: 40%;
+	}
+	.grid a:first-child {
+		margin-right: 10%;
+	}
+	.grid a:nth-child(2) {
+		margin-right: 0%;
+	}
+ .grid a:nth-child(3) {
+	 margin-left: 10%;
+	 margin-right: 10%;
+	 margin-top: 12%;
+ }
+ .grid a:nth-child(4) {
+	 margin-top: 12%;
+ }
+ .grid figcaption h2 {
+	 margin: 0;
+	 font-size: 80%;
+ }
+}
