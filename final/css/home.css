@@ -417,10 +417,11 @@ footer {
     height: 65%;
     margin-top: 5%;
   }
-  .rates {
+.rates {
     width: 80%;
     height: 25%;
     margin-top: 2%;
+    margin-right: 13%;
   }
   #rates {
     margin-top: 2%;
