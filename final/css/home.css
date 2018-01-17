@@ -306,6 +306,7 @@
   display: none;
 }
 label {
+	  text-align: center;
   margin-right: 2%;
   float: right;
   font-size: 0;
